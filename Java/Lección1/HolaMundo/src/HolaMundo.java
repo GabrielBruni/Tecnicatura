@@ -155,6 +155,6 @@ public class HolaMundo {
         System.out.println("Digite un caracter: ");
         fraseChar = entrada.nextLine().charAt(0);
         System.out.println("fraseChar = " + fraseChar);
-        
+              
     }
 }
