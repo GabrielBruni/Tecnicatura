@@ -423,4 +423,3 @@ Parte 2:
 Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
 <sub>
 Profesor Ariel Betancud</sub>
-
