@@ -15,3 +15,8 @@ if( edad >= adulto ){
 else{
     console.log("Usted es una persona menor de edad.");
 }
+
+// Ejercicio: Dentro de un rango.
+let 
+let
+if

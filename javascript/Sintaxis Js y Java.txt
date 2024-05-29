@@ -1,17 +1,30 @@
 Sintaxis similares entre Java y JavaScript.
+<<<<<<< HEAD
+-Operadores Simplificados:
+=======
 -Operadores Simplificados/Compuestos:
+>>>>>>> ramajs
 +=
 -=
 *=
 /=
+<<<<<<< HEAD
+=======
 %=
 **=
 
+>>>>>>> ramajs
 -Operadores Aritméticos:
 +
 -
 *
 /
+<<<<<<< HEAD
+-Operadores de Asingnación:
+=
+-Operadores de Comparación:
+==
+=======
 % // Residuo.
 ** // Exponente.
 
@@ -23,6 +36,7 @@ Los operadores simplificados también asignan.
 == Revisa el valor sin importar el tipo de dato.
 === Revisa el valor y el tipo también en js.
 // Este operador se lo llama de igualdad estricta.
+>>>>>>> ramajs
 
 -Documentar:
 // = Para una línea de comentario.
@@ -40,6 +54,11 @@ Los operadores simplificados también asignan.
 
 -Operador de Aumento:
 ++
+<<<<<<< HEAD
+-Operador de Decremento:
+--
+-
+=======
 Ejemplo: Let z = ++a; // PreIncremento.
 Ejemplo: z = a++; // PosIncremento. 
 
@@ -57,3 +76,8 @@ Ejemplo: z = a--; // PosDecremento.
 >
 <=
 >=
+>>>>>>> ramajs
+
+-Operadores Lógicos:
+And -> && Double Aspersan.
+Or  -> 
