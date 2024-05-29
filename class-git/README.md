@@ -20,6 +20,10 @@ cd /D #Cambiamos de disco en window
 df -h #Muestra todos los directorios en Ubuntu
 cd /mnt/d #Cambia de directorio usando WSL Ubuntu en window
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> nuevarama
 ## AHORA COMENZAMOS CON LA CREACIÓN DE CARPETAS
 ```sh
 cd ..
@@ -37,6 +41,11 @@ Revisar y ejecutar cada comando, hacerlo como practica
 <sub>
 Profesor Ariel Betancud</sub>
 
+<<<<<<< HEAD
+=======
+
+# CLASE MIÉRCOLES 3 DE ABRIL DEL 2024
+>>>>>>> nuevarama
 
 # CLASE 2 MIÉRCOLES 3 DE ABRIL DEL 2024
 <sub>
@@ -85,6 +94,11 @@ Revisar y ejecutar cada comando, hacerlo como practica
 <sub>
 Profesor Ariel Betancud</sub>
 
+<<<<<<< HEAD
+=======
+
+# CLASE MIÉRCOLES 10 DE ABRIL DEL 2024
+>>>>>>> nuevarama
 
 # CLASE 3 MIÉRCOLES 10 DE ABRIL DEL 2024
 > Analizar cambios en los archivos de tu proyecto Git parte 3
@@ -128,12 +142,23 @@ Revisar y ejecutar cada comando, hacerlo como practica
 Profesor Ariel Betancud</sub>
 
 
+<<<<<<< HEAD
 # CLASE 4 MIÉRCOLES 17 DE ABRIL DEL 2024
 > Analizar cambios en los archivos de tu proyecto Git parte 4
 > Ingresamos de la siguiente manera:
 <sub>Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.
 TAREA -> AGREGAR LOS COMENTARIOS EN LOS COMANDOS, PARA SABER QUE PASA CON CADA UNO.</sub>
 
+=======
+# CLASE MIÉRCOLES 17 DE ABRIL DEL 2024
+
+> Analizar cambios en los archivos de tu proyecto Git parte 4
+> Ingresamos de la siguiente manera:
+<sub>
+Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.</sub>
+
+> TAREA -> AGREGAR LOS COMENTARIOS EN LOS COMANDOS, PARA SABER QUE PASA CON CADA UNO.
+>>>>>>> nuevarama
 ```sh
 cd tecnicatura
 cd class-git
@@ -141,7 +166,11 @@ ls
 touch historia.txt
 code .
 ```
+<<<<<<< HEAD
 ## Modificamos el archivo historia.txt colocando lo siguiente: Bienvenido mi nombre es Gabriel
+=======
+> #Modificamos el archivo historia.txt colocando lo siguiente: Bienvenido, mi nombre es Ariel (coloca tu nombre)
+>>>>>>> nuevarama
 ```sh
 ctrl + s
 git status
@@ -149,19 +178,31 @@ git add .
 git status
 git commit #Sin agregar -m veremos que pasa
 ```
+<<<<<<< HEAD
 ## Agregar mensaje y salir con...
+=======
+> #Agregar mensaje y salir con
+>>>>>>> nuevarama
 ```sh
 Esc #Presionamos Escape 
 :wq! + enter #Y ya salimos si estamos en git bash con window
 Esc + shift + z + z #Salimos del mensaje para el commit, en linux, esto anda en algunas terminales
 ```
+<<<<<<< HEAD
 ## Agregamos otra línea de mensaje en historia.txt desde VSC: estoy estudiando programación
+=======
+> #Agregamos otra línea de mensaje en historia.txt desde VSC: estoy estudiando programación
+>>>>>>> nuevarama
 ```sh
 ctrl + s
 git add .
 git commit
 ```
+<<<<<<< HEAD
 ## Se abre un editor de código basado en línea de comandos, editor de texto como VSC llamado vim
+=======
+> #Se abre un editor de código basado en línea de comandos, editor de texto como VSC llamado vim
+>>>>>>> nuevarama
 ```sh
 Esc + i #Para comenzar a escribir mensaje del commit, no suele ser necesario
 ctrl + x #Para salir en linux
@@ -170,13 +211,20 @@ git show #Vemos todos los cambios en el último commit
 git log historia.txt #Vemos todos los commit
 q #Para salir del registro de commits
 ```
+<<<<<<< HEAD
 ## Copiamos un hash mas antoguo y otro reciente, ingresamos el siguiente comando
 ```sh
 git diff hash_commit_numerico hash_commit_numerico #Comparamos diferentes commits y sus cambios, poner la versión mas vieja primero, luego la mas nueva
+=======
+> #Copiamos un hash mas antoguo y otro reciente, ingresamos el siguiente comando
+```sh
+git diff hash_commit_numerico hash_commit_numerico #Comparamos diferentes commits y sus cambios, poner la versión mas vieja primero, luego la mas nuevo
+>>>>>>> nuevarama
 q #Para salir
 cd ..
 cd ..
 ```
+<<<<<<< HEAD
 <sub>
 La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.
 <sub>
@@ -422,4 +470,12 @@ Parte 2:
 <sub>
 Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
 <sub>
+=======
+
+## La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.
+
+<sub>
+Revisar y ejecutar cada comando, hacerlo como practica
+<sub>
+>>>>>>> nuevarama
 Profesor Ariel Betancud</sub>
