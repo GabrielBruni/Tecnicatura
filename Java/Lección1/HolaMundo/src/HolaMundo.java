@@ -140,7 +140,7 @@ public class HolaMundo {
 //        System.out.println("valorPI = " + valorPI);
 //        
 //        // Pedir un valor
-          var entrada = new Scanner(System.in);
+//        var entrada = new Scanner(System.in);
 //        System.out.println("Digite su edad:");
 //        edad = Integer.parseInt( entrada.nextLine());
 //        System.out.println("edad = " + edad);
@@ -180,7 +180,7 @@ public class HolaMundo {
         else
             System.out.println("Es un número IMPAR.");*/
         
-        int varNum1 = 1, varNum2 = 4;
+        /*int varNum1 = 1, varNum2 = 4;
         var varNum3 = varNum1 + 6 - varNum2; // Una operación.
         System.out.println("varNum3 = " + varNum3);
         
@@ -195,7 +195,8 @@ public class HolaMundo {
         varNum3 /= 4;
         System.out.println("varNum3 = " + varNum3);
         varNum1 %= 6;
-        System.out.println("varNum1 = " + varNum1);
+        System.out.println("varNum1 = " + varNum1);*/
+        
         
         
     }    
