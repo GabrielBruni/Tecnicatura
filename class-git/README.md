@@ -1,7 +1,6 @@
 # CLASE 1 MIÉRCOLES 27 DE MARZO DEL 2024
 > Lo que vimos en la clase anterior:
-<sub>
-Abrimos la terminal de Git Bash en Window o la terminal de Ubuntu, tambien la terminal de Mac, y comenzamos con los siguientes comandos y creación de directorios</sub>
+<sub>Abrimos la terminal de Git Bash en Window o la terminal de Ubuntu, tambien la terminal de Mac, y comenzamos con los siguientes comandos y creación de directorios</sub>
 
 ```sh
 pwd  #Vemos la ruta de la carpeta en la que estamos
@@ -20,10 +19,6 @@ cd /D #Cambiamos de disco en window
 df -h #Muestra todos los directorios en Ubuntu
 cd /mnt/d #Cambia de directorio usando WSL Ubuntu en window
 ```
-<<<<<<< HEAD
-=======
-
->>>>>>> nuevarama
 ## AHORA COMENZAMOS CON LA CREACIÓN DE CARPETAS
 ```sh
 cd ..
@@ -36,20 +31,12 @@ mkdir Python
 mkdir Java
 mkdir JavaScript
 ```
-<sub>
-Revisar y ejecutar cada comando, hacerlo como practica
-<sub>
-Profesor Ariel Betancud</sub>
+<sub>Revisar y ejecutar cada comando, hacerlo como practica
+<sub>Profesor Ariel Betancud</sub>
 
-<<<<<<< HEAD
-=======
-
-# CLASE MIÉRCOLES 3 DE ABRIL DEL 2024
->>>>>>> nuevarama
 
 # CLASE 2 MIÉRCOLES 3 DE ABRIL DEL 2024
-<sub>
-Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador</sub>
+<sub>Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador</sub>
 
 ```sh
 touch vacio.txt #Crea un archivo con su extención: ESCRIBIR DENTRO
@@ -89,22 +76,14 @@ git add .
 git commit -m "Mi segundo commit"
 git log historia.txt #Vemos toda la historia de este archivo, el número largo es el hash del commit
 ```
-<sub>
-Revisar y ejecutar cada comando, hacerlo como practica
-<sub>
-Profesor Ariel Betancud</sub>
+<sub>Revisar y ejecutar cada comando, hacerlo como practica
+<sub>Profesor Ariel Betancud</sub>
 
-<<<<<<< HEAD
-=======
-
-# CLASE MIÉRCOLES 10 DE ABRIL DEL 2024
->>>>>>> nuevarama
 
 # CLASE 3 MIÉRCOLES 10 DE ABRIL DEL 2024
 > Analizar cambios en los archivos de tu proyecto Git parte 3
 > Ingresamos de la siguiente manera:
-<sub>
-Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.</sub>
+<sub>Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.</sub>
 
 ```sh
 cd tecnicatura #Ingresamos al direcotorio donde están nuestras carpetas de trabajo
@@ -136,29 +115,16 @@ git log #Para ver los dos commits hechos: Si tienes commiteada alguna clase ante
 cd ..
 cd ..
 ```
-<sub>
-Revisar y ejecutar cada comando, hacerlo como practica
-<sub>
-Profesor Ariel Betancud</sub>
+<sub>Revisar y ejecutar cada comando, hacerlo como practica
+<sub>Profesor Ariel Betancud</sub>
 
 
-<<<<<<< HEAD
 # CLASE 4 MIÉRCOLES 17 DE ABRIL DEL 2024
 > Analizar cambios en los archivos de tu proyecto Git parte 4
 > Ingresamos de la siguiente manera:
-<sub>Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.
-TAREA -> AGREGAR LOS COMENTARIOS EN LOS COMANDOS, PARA SABER QUE PASA CON CADA UNO.</sub>
-
-=======
-# CLASE MIÉRCOLES 17 DE ABRIL DEL 2024
-
-> Analizar cambios en los archivos de tu proyecto Git parte 4
-> Ingresamos de la siguiente manera:
-<sub>
-Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.</sub>
+<sub>Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.</sub>
 
 > TAREA -> AGREGAR LOS COMENTARIOS EN LOS COMANDOS, PARA SABER QUE PASA CON CADA UNO.
->>>>>>> nuevarama
 ```sh
 cd tecnicatura
 cd class-git
@@ -166,11 +132,7 @@ ls
 touch historia.txt
 code .
 ```
-<<<<<<< HEAD
 ## Modificamos el archivo historia.txt colocando lo siguiente: Bienvenido mi nombre es Gabriel
-=======
-> #Modificamos el archivo historia.txt colocando lo siguiente: Bienvenido, mi nombre es Ariel (coloca tu nombre)
->>>>>>> nuevarama
 ```sh
 ctrl + s
 git status
@@ -178,31 +140,20 @@ git add .
 git status
 git commit #Sin agregar -m veremos que pasa
 ```
-<<<<<<< HEAD
 ## Agregar mensaje y salir con...
-=======
-> #Agregar mensaje y salir con
->>>>>>> nuevarama
 ```sh
 Esc #Presionamos Escape 
 :wq! + enter #Y ya salimos si estamos en git bash con window
 Esc + shift + z + z #Salimos del mensaje para el commit, en linux, esto anda en algunas terminales
 ```
-<<<<<<< HEAD
 ## Agregamos otra línea de mensaje en historia.txt desde VSC: estoy estudiando programación
-=======
-> #Agregamos otra línea de mensaje en historia.txt desde VSC: estoy estudiando programación
->>>>>>> nuevarama
 ```sh
 ctrl + s
 git add .
 git commit
 ```
-<<<<<<< HEAD
 ## Se abre un editor de código basado en línea de comandos, editor de texto como VSC llamado vim
-=======
 > #Se abre un editor de código basado en línea de comandos, editor de texto como VSC llamado vim
->>>>>>> nuevarama
 ```sh
 Esc + i #Para comenzar a escribir mensaje del commit, no suele ser necesario
 ctrl + x #Para salir en linux
@@ -211,7 +162,6 @@ git show #Vemos todos los cambios en el último commit
 git log historia.txt #Vemos todos los commit
 q #Para salir del registro de commits
 ```
-<<<<<<< HEAD
 ## Copiamos un hash mas antoguo y otro reciente, ingresamos el siguiente comando
 ```sh
 git diff hash_commit_numerico hash_commit_numerico #Comparamos diferentes commits y sus cambios, poner la versión mas vieja primero, luego la mas nueva
@@ -219,18 +169,13 @@ git diff hash_commit_numerico hash_commit_numerico #Comparamos diferentes commit
 > #Copiamos un hash mas antoguo y otro reciente, ingresamos el siguiente comando
 ```sh
 git diff hash_commit_numerico hash_commit_numerico #Comparamos diferentes commits y sus cambios, poner la versión mas vieja primero, luego la mas nuevo
->>>>>>> nuevarama
 q #Para salir
 cd ..
 cd ..
 ```
-<<<<<<< HEAD
-<sub>
-La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.
-<sub>
-Revisar y ejecutar cada comando, hacerlo como practica
-<sub>
-Profesor Ariel Betancud</sub>
+<sub>La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.
+<sub>Revisar y ejecutar cada comando, hacerlo como practica
+<sub>Profesor Ariel Betancud</sub>
 
 
 # CLASE 5 MIÉRCOLES 24 DE ABRIL DEL 2024
@@ -261,13 +206,11 @@ Estas ramas tienen un principio y un fin, ya que son ramas que se mergean con la
 
 Podemos tener tantas ramas como queramos, tantos repositorios como queramos, lo más importante es saber cuando hacemos un merge, porque es posible que hayan archivos que rompan otros archivos, a esto se lo llama conflicto o bug.
 
-<sub>
-Hoy a sido un poco de teoría, repaso de todo lo que les dió la profe Naty.
-<sub>
-Profesor Ariel Betancud</sub>
+<sub>Hoy a sido un poco de teoría, repaso de todo lo que les dió la profe Naty.
+<sub>Profesor Ariel Betancud</sub>
 
 
-# CLASE 5 MIÉRCOLES 8 DE MAYO DEL 2024
+# CLASE 6 MIÉRCOLES 8 DE MAYO DEL 2024
 > Volver en el tiempo en nuestro repositorio utilizando reset y checkout parte 6
 > Ingresamos de la siguiente manera:
 <sub>Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.
@@ -336,15 +279,12 @@ git log #Veremos los cambios sin tocar ningun otro archivo, esta es la forma de 
 cd ..
 cd ..
 ```
-<sub>
-La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.
-<sub>
-Revisar y ejecutar cada comando, hacerlo como practica
-<sub>
-Profesor Ariel Betancud</sub>
+<sub>La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.
+<sub>Revisar y ejecutar cada comando, hacerlo como practica
+<sub>Profesor Ariel Betancud</sub>
 
 
-# CLASE 6 MIÉRCOLES 15 DE MAYO DEL 2024
+# CLASE 7 MIÉRCOLES 15 DE MAYO DEL 2024
 > Git reset vs. Git rm parte 7
 > Los comandos git reset y git rm tienen utilidades muy diferentes, pero pueden confundirse fácilmente.
 
@@ -409,19 +349,19 @@ Siguientes pasos Bueno, todos los cambios están en el área de Staging, incluid
 
 Crear cambios en el archivo creado, donde vamos a hacer varios commits, para ir probando los nuevos comandos, al finalizar las pruebas, eliminar el directorio con todo su contenido.
 
-<sub>
-La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.
-<sub>
-Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
-<sub>
-Dante Nicolás Martinez
-<sub>
-Revisar y ejecutar cada comando, hacerlo como practica
-<sub>
-Profesor Ariel Betancud</sub>
+<sub>La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.
+<sub>Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
+<sub>Dante Nicolás Martinez</sub>
+
+* Introducción
+* Práctica
+* PDF
+
+<sub>Revisar y ejecutar cada comando, hacerlo como practica
+<sub>Profesor Ariel Betancud</sub>
 
 
-# CLASE 7 MIÉRCOLES 22 DE MAYO DEL 2024
+# CLASE 8 MIÉRCOLES 22 DE MAYO DEL 2024
 <sub>Flujo de trabajo básico con un repositorio remoto parte 8</sub>
 
 Cuando empiezas a trabajar en un entorno local, el proyecto vive únicamente en tu computadora. Esto significa que no hay forma de que otros miembros del equipo trabajen en él.
@@ -460,22 +400,105 @@ git log – index.html #Busca los commits en un archivo en específico.
 git log -S “Por contenido” #Buscar los commits con el contenido dentro del archivo.
 git log > log.txt #guardar los logs en un archivo txt
 ```
-<sub>La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.
-<sub>
-Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
-<sub>
-Dante Nicolás Martinez
-<sub>
-Parte 2:
-<sub>
-Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
-<sub>
-=======
+<sub>La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.</sub>
+
+## Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
+<sub>Dante Nicolás Martinez
+<sub>Parte 2:</sub>
+
+* Introducción
+* Práctica
+* PDF
+
+<sub>Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.</sub>
 
 ## La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.
+<sub>Revisar y ejecutar cada comando, hacerlo como practica
+<sub>Profesor Ariel Betancud</sub>
 
-<sub>
-Revisar y ejecutar cada comando, hacerlo como practica
-<sub>
->>>>>>> nuevarama
-Profesor Ariel Betancud</sub>
+
+# CLASE 9 MIÉRCOLES 29 DE MAYO DEL 2024
+<sub>Introducción a las ramas o branches de Git parte 9</sub>
+
+Cuando entramos en el proyecto veremos que nos encontramos con la rama master, y es a partir de allí que debe saber que esta es la rama madre o principal rama, y las otras ramas se crean para no afectar a la master
+
+Las ramas (branches) son la forma de hacer cambios en nuestro proyecto sin afectar el flujo de trabajo de la rama principal. Esto porque queremos trabajar una parte muy específica de la aplicación o simplemente experimentar.
+
+La cabecera o HEAD representan la rama y el commit de esa rama donde estamos trabajando. Por defecto, esta cabecera aparecerá en el último commit de nuestra rama principal. Pero podemos cambiarlo al crear una rama (git branch rama, git checkout -b rama) o movernos en el tiempo a cualquier otro commit de cualquier otra rama con los comandos (git reset id-commit, git checkout rama-o-id-commit).
+
+## Repasa: ¿Qué es Git?
+### Cómo funcionan las ramas en GIT
+Las ramas son la manera de hacer cambios en nuestro proyecto sin afectar el flujo de trabajo de la rama principal. Esto porque queremos trabajar una parte muy específica de la aplicación o simplemente experimentar.
+```sh
+git branch nombre de la rama #Con este comando se genera una nueva rama.
+git checkout nombre de la rama #Con este comando puedes saltar de una rama a otra.
+git checkout -b rama #Genera una rama y nos mueve a ella automáticamente, Es decir, es la combinación de git branch y git checkout al mismo tiempo.
+git reset id-commit #Nos lleva a cualquier commit no importa la rama, ya que identificamos el id del tag., eliminando el historial de los commit posteriores al tag seleccionado.
+git checkout rama-o-id-commit #Nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado.
+```
+### Vamos a hacer una practica: 
+* Mientras la rama master esta cambiando normalmente, vamos a crear una rama paralela que va a crear nuevas secciones: osea una sección y a esta rama la vamos a llamar segunda y con esto, la vamos a fusionar para ver como queda en la rama master y así entender el flujo de ramas entre git. Al crear otra rama estamos creando una copia de todos los commit que ya tiene la rama master en la nueva rama y todos los cambios que hagamos en esta nueva rama, no los va a ver la rama master hasta que no la volvamos a fusionar con un proceso que se llama merge.
+* Abrir terminal #En ubuntu
+* Abrir como adminstrados git bash #En window
+```sh
+cd Tecnicatura
+cd class-git
+code . #En ubuntu
+code . #En window, abrir como administrador
+ctrl + s #Guardamos
+clic mouse derecho #Abrimos en el navegador con Live Server vemos los cambios
+git status
+git commit -am "mensaje del commit" #Este solo funciona con archivos creado previamente
+git commit -a -m "Mensaje del commit" #Esto es lo mismo que el anterior
+git commit -a + enter #Se abrira el entorno para editar el vim con el mensaje
+Escribir el mensaje
+ctrl + x
+s + enter #No cambiar el nombre ni ruta de ubicación
+git log #Veremos los cambios guardados
+q #Para salir
+git log --stat #Veremos los cambios nombrando cada archivo
+q #Para salir
+git branch #Muestra en la rama que estamos, desde aquí crearemos una nueva
+git show #Muestra el último cambio que hicimos, esto significa que desde el HEAD -> master es que haremos cambios
+q #Para salir
+ctrl + l #Limpiamos consola
+git branch segunda #creamos una nueva rama
+git show #Nos muestra ahora que esta en el HEAD -> master, cabecera aquí es donde esta apuntando, es decir el último commit esta pegado a dos ramas distintas, aunque todavía estemos en master
+q #Para salir
+git status #No hay nada para hacer commit
+git chekout segunda #Nos movemos hacía otras ramas, en este caso a segunda, esto no se ve en mac ni en ubuntu, para ver donde estamos hay que ingresar...
+git branch #veremos en que rama estamos ubicados o ingresando...
+git status #Veremos en que HEAD estamos apuntando
+VSC #hacemos cambios que veremos con Nico
+```
+## Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
+<sub>Dante Nicolás Martinez
+<sub>Parte 2:</sub>
+
+* Introducción
+* Práctica
+* PDF
+
+ ```sh
+ctrl + s 
+F5 #Actualizamos en el navegador para ver los cambios
+git status #Veremos el archivo que modificamos
+git add .
+git commit
+vim escribimos el mensaje del commit
+ctrl + x
+s #Para un si 
+enter #Terminado el mensaje del commit
+git status #No hay mas nada para commitear y estamos en la rama segunda
+git show #Vemos todo lo que cambiamos
+q #Para salir
+git log #Nos muestra donde estabamos con la rama master y el HEAD paso a la rama cabecera
+q #Para salir
+git checkout master #Volvemos a la rama master, desaparese lo que habíamos hecho
+git log #No muestra lo que hicimos en el portafolio
+q #Para salir
+git checkout segunda #Volvemos a ver todos los cambios que hicimos de nuevo
+```
+<sub>La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.
+<sub>Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
+<sub>Profesor Ariel Betancud</sub>
