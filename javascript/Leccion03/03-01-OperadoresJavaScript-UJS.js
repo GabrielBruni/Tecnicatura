@@ -17,6 +17,7 @@ else{
 }
 
 // Ejercicio: Dentro de un rango.
+<<<<<<< HEAD
 let dentroRango = 5; // Aquí vamos a ir cambiando el valor.
 let valMin = 0, valMax = 10;
 if (dentroRango >= valMin && dentroRango <= valMax) {
@@ -25,3 +26,8 @@ if (dentroRango >= valMin && dentroRango <= valMax) {
 else{
     console.log("Está fuera del rango establecido.")
 }
+=======
+let 
+let
+if
+>>>>>>> ramajs

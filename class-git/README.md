@@ -118,6 +118,7 @@ cd ..
 <sub>Revisar y ejecutar cada comando, hacerlo como practica
 <sub>Profesor Ariel Betancud</sub>
 
+<<<<<<< HEAD
 
 # CLASE 4 MIÉRCOLES 17 DE ABRIL DEL 2024
 > Analizar cambios en los archivos de tu proyecto Git parte 4
@@ -502,3 +503,12 @@ git checkout segunda #Volvemos a ver todos los cambios que hicimos de nuevo
 <sub>La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.
 <sub>Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
 <sub>Profesor Ariel Betancud</sub>
+=======
+<sub>
+Revisar y ejecutar cada comando, hacerlo como practica
+<sub>
+Profesor Ariel Betancud</sub>
+
+rbrbrgbrb
+vrfvrbv
+>>>>>>> ramajs

@@ -77,3 +77,10 @@ Ejemplo: z = a--; // PosDecremento.
 <=
 >=
 >>>>>>> ramajs
+<<<<<<< HEAD
+=======
+
+-Operadores Lógicos:
+And -> && Double Aspersan.
+Or  -> 
+>>>>>>> ramajs
