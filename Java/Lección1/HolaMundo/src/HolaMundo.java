@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class HolaMundo {
-    
+
     public static void main(String[] args) {
         /*System.out.println("Hola mundo desde Java");        
         
@@ -15,9 +15,9 @@ public class HolaMundo {
         System.out.println(miVariableCadena);
         miVariableCadena = "Sigamos creciendo en programación";
         System.out.println(miVariableCadena);
-        */
-        
-        /*// Var - interferencia de tipos en Java
+         */
+
+ /*// Var - interferencia de tipos en Java
         var miVariableEntera2 = 10
         var miVariableEntera2 = "Seguimos estudiando"
         System.out.println("miVariableEntera2 = " + miVariableEntera2);
@@ -42,7 +42,6 @@ public class HolaMundo {
         System.out.println("Retroceso: \b\b" + nombre); // Caracter de Retroceso
         System.out.println("Comillas Simples: \'"+nombre+"\'");
         System.out.println("Comillas Dobles: \""+nombre+"\"");*/
-        
         // Clase Scanner
         /*Scanner entrada = new Scanner(System.in);
         System.out.println("Digite su nombre: ");
@@ -51,8 +50,7 @@ public class HolaMundo {
         System.out.println("Escriba el título: ");
         var titulo2 = entrada.nextLine();
         System.out.println("Resultado: "+titulo2+" "+usuario2);*/
-        
-        /*byte numEnteroByte = (byte)127;
+ /*byte numEnteroByte = (byte)127;
         System.out.println("numEnteroByte = " + numEnteroByte);
         System.out.println("Valor mínimo del Byte:"+ Byte.MIN_VALUE);
         System.out.println("Valor máximo del Byte:"+ Byte.MAX_VALUE);
@@ -71,8 +69,7 @@ public class HolaMundo {
         System.out.println("numEnteroLong = " + numEnteroLong);
         System.out.println("Valor mínimo del Long:"+ Long.MIN_VALUE);
         System.out.println("Valor máximo del Long:"+ Long.MAX_VALUE);*/
-        
-        /*float numFloat = 3.4028235E38F;
+ /*float numFloat = 3.4028235E38F;
         System.out.println("numFloat = " + numFloat);
         System.out.println("El valor mínimo de Float:"+ Float.MIN_VALUE);
         System.out.println("EL valor máximo de Float:"+ Float.MAX_VALUE);
@@ -81,7 +78,6 @@ public class HolaMundo {
         System.out.println("numDouble = " + numDouble);
         System.out.println("El valor mínimo de Double:"+ Double.MIN_VALUE);
         System.out.println("El valor máximo de Double:"+ Double.MAX_VALUE);*/
-        
         // Inferencia de tipos var y tipos primitivos
         /*var numEntero = 20; // Las literales sin punto son automáticamente son de tipo int
         System.out.println("numEntero = " + numEntero);
@@ -89,7 +85,6 @@ public class HolaMundo {
         System.out.println("numFloat = " + numFloat);
         var numDouble = 10.0;
         System.out.println("numDouble = " + numDouble);*/
-        
         // Tipos primitivos char
         /*char miVariableChar = 'a';
         System.out.println("miVariableChar = " + miVariableChar);
@@ -111,7 +106,6 @@ public class HolaMundo {
         System.out.println("varEnteroChar = " + varEnteroChar);
         int caracterChar = 'b';
         System.out.println("caracterChar = " + caracterChar);*/
-        
         // 6.1 Tipos Primitivos tipos booleanos (Miércoles 15/05/24)
         /*var varBool = false;
         System.out.println("varBool = " + varBool);
@@ -132,7 +126,6 @@ public class HolaMundo {
         else{
             System.out.println("Eres menor de edad.");
         }*/
-
         // 6.2 Conversión de tipos primitivos (Parte 1).
 //        var edad = Integer.parseInt("20");
 //        System.out.println("edad = " + (edad + 1));
@@ -144,7 +137,6 @@ public class HolaMundo {
 //        System.out.println("Digite su edad:");
 //        edad = Integer.parseInt( entrada.nextLine());
 //        System.out.println("edad = " + edad);
-        
         // Conversión de tipos primitivos en Java Parte 2.
         /*var edadTexto = String.valueOf(10);
         System.out.println("edadTexto = " + edadTexto);
@@ -155,8 +147,7 @@ public class HolaMundo {
         System.out.println("Digite un caracter: ");
         fraseChar = entrada.nextLine().charAt(0);
         System.out.println("fraseChar = " + fraseChar);*/
-        
-        /*int num1 = 5, num2 = 4;
+ /*int num1 = 5, num2 = 4;
         var solucion = num1 + num2;
         System.out.println("Solución de la suma es = " + solucion);
         
@@ -179,8 +170,7 @@ public class HolaMundo {
             System.out.println("Es un número PAR.");
         else
             System.out.println("Es un número IMPAR.");*/
-        
-        /*int varNum1 = 1, varNum2 = 4;
+ /*int varNum1 = 1, varNum2 = 4;
         var varNum3 = varNum1 + 6 - varNum2; // Una operación.
         System.out.println("varNum3 = " + varNum3);
         
@@ -196,8 +186,117 @@ public class HolaMundo {
         System.out.println("varNum3 = " + varNum3);
         varNum1 %= 6;
         System.out.println("varNum1 = " + varNum1);*/
+        // Operadores Unarios: Cambio de signo. (CLASE MIÉRCOLES 26/05/2024)
+        /*var varA = 7;
+        var varB = -varA;
+        System.out.println("varA = " + varA);
+        System.out.println("varB = " + varB); // El resultado será un número negativo.
         
+        // Operador de Negación.
+        var varC = true; // Esta literal por default en Java es de tipo boolean.
+        var varD = !varC; // Aquí está invitriendo el valor.
+        System.out.println("varC = " + varC);
+        System.out.println("varD = " + varD);
         
+        // Operadores Unitarios de Incremento: PreIncremento.
+        var varE = 9; // Se va a modificar su valor.
+        var varF = ++varE; // Símbolo antes de la variable.
+        // Primero se incrementa la variable y después se usa su valor.
+        System.out.println("varE = " + varE); // Se incrementa en la unidad.
+        System.out.println("varF = " + varF); // Va a sumar uno.
         
-    }    
+        // PostIncremento. (El símbolo va después de la variable)
+        var varG = 3;
+        var varH = varG++; // Primero el valor de la variable, luego el incremento.
+        System.out.println("VarG = " + varG);
+        System.out.println("varH = " + varH);
+        
+        // Operadores Unarios de Decremento: PreDecremento.
+        var varI = 4;
+        var varJ = --varI;
+        System.out.println("varI = " + varI); // La variable ya está con decremento.
+        System.out.println("varJ = " + varJ);
+        
+        // PostDecremento.
+        var varK = 8;
+        var varL = varK--; // Primero el valor de la variable, luego queda el decremento.
+        System.out.println("varK = " + varK); // Aquí va a decrementar en 1.
+        System.out.println("varL = " + varL);*/
+        // Operadores de Igualdad y Relacionales.
+        /*var aNum = 5;
+        var bNum = 4;
+        var cNum = (aNum == bNum); // Paréntesis opcionales.
+        System.out.println("cNum = " + cNum);
+
+        var dNum = aNum != bNum; // Paréntesis opcionales.
+        System.out.println("dNum = " + dNum);
+
+        var cadenaA = "Hello";
+        var cadenaB = "Bye bye";
+        var cVar = cadenaA == cadenaB; // Comparación referencia de objetos.
+        System.out.println("cVar = " + cVar);
+
+        var fVar = cadenaA.equals(cadenaB); // Comprobacion si el contenido de las cadenas son iguales.
+        System.out.println("fVar = " + fVar);
+
+        var gVar = aNum != bNum; // > ; >= ; < ; <= ; == ; != 
+        System.out.println("gVar = " + gVar);
+
+        if (bNum % 2 == 0) {
+            System.out.println("El número es PAR.");
+        } else {
+            System.out.println("El número es IMPAR.");
+        }
+        
+        var edad = 18;
+        var adulto = 18;
+        if (edad >= adulto) {
+            System.out.println("Es MAYOR de edad.");
+        } else {
+            System.out.println("Es MENOR de edad.");
+        }*/
+        
+        // Operador Condiconal: (AND(&&)).
+        /*var valorA = 7;
+        var valorMinimo = 0; // Rango del 0 al 10.
+        var valorMaximo = 10;
+        var respuesta = valorA >= 0 && valorA <= 10;
+        
+        if (respuesta) {
+            System.out.println("Está dentro del rango establecido.");
+        } else {
+            System.out.println("Está fuera del rango establecido.");
+        }
+        
+        // Operador Condiconal: (OR(||)).
+        var vacaciones = false;
+        var diaLibre = true;
+        if (vacaciones || diaLibre) {
+            System.out.println("Papá puede asistir al juego de su hijo.");
+        } else {  
+            System.out.println("Papá no puede asistir al juego de su hijo.");
+        }*/ 
+        
+        // Operador Ternario.
+        /*var resultadoT = (5 > 8) ? "Verdadero." : "Falso.";
+        System.out.println("resultadoT = " + resultadoT);
+        
+        var numeroT = 4;
+        resultadoT = (numeroT % 2 == 0) ? "Es PAR." : "Es IMPAR.";
+        System.out.println("resultadoT = " + resultadoT);*/
+        
+        var x = 5;
+        var y = 10;
+        var z = ++x + y--;
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+        System.out.println("z = " + z);
+        
+        var solucionAritmetica = 4 + 5 * 6 / 3; // 14. (Leé de izq. a derc.) Primero multiplica, luego divide y termina sumando.
+        System.out.println("solucionAritmetica = " + solucionAritmetica);
+        
+        solucionAritmetica = (4 + 5) * 6 / 3; // (4 + 5) = 9 * 6 =54 / 3 == 18.
+        System.out.println("solucionAritmetica = " + solucionAritmetica);
+        
+    }
 }
