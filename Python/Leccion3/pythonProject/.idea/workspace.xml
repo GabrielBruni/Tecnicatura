@@ -33,15 +33,14 @@
   "keyToString": {
     "Python.Ejercicio Bisiestro.executor": "Run",
     "Python.Ejercicio4 Calificaciones Alumnos.executor": "Run",
+    "Python.Ejercicio5 Factorial.executor": "Run",
+    "Python.Ejercicio6 Lista Num Pares.executor": "Run",
+    "Python.Ejercicio7 Salario.executor": "Run",
     "Python.Números Positivos-Negativo-Nuetro.executor": "Run",
     "Python.Suma de N numeros.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-<<<<<<< HEAD
     "git-widget-placeholder": "master",
-=======
-    "git-widget-placeholder": "nuevarama",
->>>>>>> nuevarama
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
