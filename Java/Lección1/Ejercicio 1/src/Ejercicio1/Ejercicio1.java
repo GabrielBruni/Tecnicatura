@@ -1,4 +1,15 @@
 // Tienda de Libros:
+// 1.Mostrar: Ingrese los siguientes datos del libro...
+// 2.Digite el nombre del libro.
+// 3.Digite el ID del libro.
+// 4.Digite el precio del libro.
+// 5.Indicar si el envío es gratuito(True/False).
+// 6.Mostrar...
+// Nombre:
+// ID:
+// Precio:
+// Envío Gratuito?:
+
 package Ejercicio1;
 
 import java.util.Scanner;
