@@ -285,7 +285,7 @@ cd ..
 <sub>Profesor Ariel Betancud</sub>
 
 
-# CLASE 7 MIÉRCOLES 15 DE MAYO DEL 2024
+# CLASE 7 MIÉRCOLES 15 DE MAYO DEL 2024 - Portafolio 1
 > Git reset vs. Git rm parte 7
 > Los comandos git reset y git rm tienen utilidades muy diferentes, pero pueden confundirse fácilmente.
 
@@ -365,8 +365,9 @@ Dante Nicolás Martinez
 <sub>Profesor Ariel Betancud</sub>
 
 
-# CLASE 8 MIÉRCOLES 22 DE MAYO DEL 2024
-<sub>Flujo de trabajo básico con un repositorio remoto parte 8</sub>
+# CLASE 8 MIÉRCOLES 22 DE MAYO DEL 2024 - Portafolio 2
+
+>Flujo de trabajo básico con un repositorio remoto parte 8
 
 Cuando empiezas a trabajar en un entorno local, el proyecto vive únicamente en tu computadora. Esto significa que no hay forma de que otros miembros del equipo trabajen en él.
 
@@ -422,8 +423,9 @@ Dante Nicolás Martinez
 <sub>Profesor Ariel Betancud</sub>
 
 
-# CLASE 9 MIÉRCOLES 29 DE MAYO DEL 2024
-<sub>Introducción a las ramas o branches de Git parte 9</sub>
+# CLASE 9 MIÉRCOLES 29 DE MAYO DEL 2024 - Portafolio 3
+
+>Introducción a las ramas o branches de Git parte 9
 
 Cuando entramos en el proyecto veremos que nos encontramos con la rama master, y es a partir de allí que debe saber que esta es la rama madre o principal rama, y las otras ramas se crean para no afectar a la master
 
@@ -512,7 +514,7 @@ git checkout segunda #Volvemos a ver todos los cambios que hicimos de nuevo
 <sub>Profesor Ariel Betancud</sub>
 
 
-# CLASE 10 MIÉRCOLES 5 DE JUNIO DEL 2024
+# CLASE 10 MIÉRCOLES 5 DE JUNIO DEL 2024 - Portafolio 4
 
 ## Fusión de ramas con Git merge parte 10
 La fusión en Git es la forma en que este sistema une un historial bifurcado. El comando git merge permite integrar líneas de desarrollo independientes generadas por git branch en una sola rama. Con este comando, podemos crear un nuevo commit que combina dos ramas o branches: la rama actual y la rama que se indica después del comando.
@@ -601,7 +603,7 @@ Dante Nicolás Martinez
 <sub>Profesor Ariel Betancud</sub>
 
 
-# CLASE 11 MIÉRCOLES 12 DE JUNIO DEL 2024
+# CLASE 11 MIÉRCOLES 12 DE JUNIO DEL 2024 - Portafolio 5
 
 > Resolución de conflictos al hacer merge parte 11
 
@@ -670,6 +672,41 @@ Dante Nicolás Martinez
 <sub>Parte 5:</sub>
 
 * Introducción
+* Práctica
+* PDF
+
+<sub>La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.
+<sub>Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
+<sub>Profesor Ariel Betancud</sub>
+
+# CLASE 12 MIÉRCOLES 19 DE JUNIO DEL 2024 - Portafolio 6
+
+>Cómo funcionan las llaves públicas y privadas parte 12
+
+## Sección lectura
+
+Las llaves públicas y privadas, conocidas también como cifrado asimétrico de un solo camino, sirven para mandar mensajes privados entre varios nodos con la lógica de que firmas tu mensaje con una llave pública vinculada con una llave privada que puede leer el mensaje.
+
+Las llaves públicas y privadas nos ayudan a cifrar y descifrar nuestros archivos de forma que los podamos compartir sin correr el riesgo de que sean interceptados por personas con malas intenciones.
+
+Cómo funciona un mensaje cifrado con llaves públicas y privadas Ambas personas deben crear su llave pública y privada.
+
+Ambas personas pueden compartir su llave pública a las otras partes (recuerda que esta llave es pública, no hay problema si la “interceptan”).
+
+La persona que quiere compartir un mensaje puede usar la llave pública de la otra persona para cifrar los archivos y asegurarse que solo puedan ser descifrados con la llave privada de la persona con la que queremos compartir el mensaje.
+
+El mensaje está cifrado y puede ser enviado a la otra persona sin problemas en caso de que los archivos sean interceptados.
+
+La persona a la que enviamos el mensaje cifrado puede emplear su llave privada para descifrar el mensaje y ver los archivos.
+
+>Nota: puedes compartir tu llave pública, pero nunca tu llave privada.
+
+## PORTAFOLIO
+Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:
+Dante Nicolás Martinez
+<sub>Parte 6:</sub>
+
+* Introducción 
 * Práctica
 * PDF
 
