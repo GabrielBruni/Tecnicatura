@@ -1,10 +1,10 @@
 // En un almacén se hace un 20% de descuento a los clientes cuya compra supere los $100.000.
 // ¿Cuál será la cantidad que pagará una persona por su compra?
-package Ejercicio2;
+package Ejercicio5;
 
 import java.util.Scanner;
 
-public class Ejercicio2 {
+public class Ejercicio5 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         float total,descuento = 0;
