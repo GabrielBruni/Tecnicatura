@@ -1,10 +1,10 @@
 // Determianr si un alumno aprueba o reprueba un curso, sabiendo que aprobará si su promedio de tres calificaciones es >= 70.
 // Reprueba caso contrario.
-package Ejercicio1;
+package Ejercicio4;
 
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ejercicio4 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         float nota1,nota2,nota3,promedio;
