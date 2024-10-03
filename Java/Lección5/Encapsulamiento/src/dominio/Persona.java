@@ -39,4 +39,11 @@ public class Persona {
         this.eliminado = eliminado;
     }
     
+    public String toString(){ // Convierte en una cadena cada atributo.
+        return "Persona [ nombre: "+this.nombre+
+                ", sueldo: "+this.sueldo+
+                ", eliminado: "+this.eliminado+" ]";          
+    }
 }
+// Tarea:
+// Crear otro objeto de tipo Persona, asignar valores de manera inicial e imprimir, luego modificar sus valores y volver a imprimir.
